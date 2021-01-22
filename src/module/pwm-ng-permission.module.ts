@@ -11,10 +11,10 @@ import { PermissionHelper } from '../services/permission-helper.service';
     exports: [HasPermissionDirective, ExceptPermissionDirective],
     providers: [],
 })
-export class PwmNgPermission {
+export class PwmNgPermissionModule {
     static forRoot() {
         return {
-            ngModule: PwmNgPermission,
+            ngModule: PwmNgPermissionModule,
             providers: [PermissionService, PermissionGuard, PermissionHelper]
         }
     }

@@ -1,6 +1,6 @@
 {
   "name": "pwm-ng-permission",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This Is Dynamic Angular Permission Controler Based On Roles.",
   "author": "David Ramazani",
   "scripts": {

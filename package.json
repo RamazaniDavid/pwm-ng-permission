@@ -1,0 +1,48 @@
+{
+  "name": "pwm-ng-permission",
+  "version": "1.0.1",
+  "description": "This Is Dynamic Angular Permission Controler Based On Roles.",
+  "author": "David Ramazani",
+  "scripts": {
+    "build": "tsc -p ./src"
+  },
+  "private": false,
+  "keywords": [
+    "ng2",
+    "ng",
+    "angular",
+    "angular2",
+    "permission",
+    "role",
+    "access",
+    "control",
+    "elements permission",
+    "route guard"
+  ],
+  "files": [
+    "src",
+    "dist",
+    "index.ts"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/router": "^4.2.6"
+  },
+  "devDependencies": {
+    "@angular/cli": "^11.1.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@types/node": "~6.0.60",
+    "codelyzer": "~2.0.0",
+    "protractor": "^7.0.0",
+    "ts-node": "~2.0.0",
+    "tslint": "^5.20.1",
+    "typescript": "~2.2.0"
+  },
+  "dependencies": {
+    "@angular/router": "^11.1.0"
+  }
+}

@@ -24,6 +24,6 @@
   ],
   "files": [
     "./index.ts",
-    "pwm-permission.ts"
+    "pwm-ng-permission.ts"
   ]
 }

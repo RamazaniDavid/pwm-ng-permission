@@ -3,4 +3,4 @@ export { ExceptPermissionDirective } from './directives/except-permission.direct
 export { PermissionService } from './services/permission.service';
 export { PermissionGuard } from './services/permission.guard';
 export { IPermissionGuardModel } from './model/permission-guard.model';
-export { PwmPermission } from './module/pwm-permission.module';
+export { PwmNgPermission } from './module/pwm-ng-permission.module';
